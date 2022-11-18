@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6674678334265969134
+--- !u!1 &4927457584260871396
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5902235118661792643}
-  - component: {fileID: 8726598504066746862}
-  - component: {fileID: 772531781692573872}
-  - component: {fileID: 6349617313523939418}
+  - component: {fileID: 5342372838597725339}
+  - component: {fileID: 7836234323622406078}
+  - component: {fileID: 3572600562958900021}
+  - component: {fileID: 289980184575504664}
   m_Layer: 0
-  m_Name: sheep
+  m_Name: sandHex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5902235118661792643
+--- !u!4 &5342372838597725339
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6674678334265969134}
+  m_GameObject: {fileID: 4927457584260871396}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.9779556, y: 3.7064095, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.574159, y: -3.9209101, z: 0}
+  m_LocalScale: {x: 1.8602558, y: 1.8602558, z: 1.8602558}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8726598504066746862
+--- !u!212 &7836234323622406078
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6674678334265969134}
+  m_GameObject: {fileID: 4927457584260871396}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -75,25 +75,25 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c1cb71bf114d19f48bbe92afa109b6c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 83dc5eb2a140dd441b5c6aab07f6d20d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.19, y: 2.5}
+  m_Size: {x: 1.34, y: 1.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &772531781692573872
+--- !u!50 &3572600562958900021
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6674678334265969134}
+  m_GameObject: {fileID: 4927457584260871396}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -107,13 +107,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &6349617313523939418
+--- !u!60 &289980184575504664
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6674678334265969134}
+  m_GameObject: {fileID: 4927457584260871396}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -124,17 +124,17 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.19, y: 2.5}
-    newSize: {x: 2.19, y: 2.5}
+    oldSize: {x: 1.34, y: 1.46}
+    newSize: {x: 1.34, y: 1.46}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.0719721, y: -0.638486}
-      - {x: 1.098626, y: 0.6278884}
-      - {x: 0.0031679869, y: 1.244542}
-      - {x: -1.095, y: 0.65}
-      - {x: -1.095, y: -0.619701}
-      - {x: 0.010457914, y: -1.2557571}
+    - - {x: 0.6162939, y: 0.3585298}
+      - {x: 0.025176032, y: 0.7048239}
+      - {x: -0.53482395, y: 0.35999998}
+      - {x: -0.52741194, y: -0.34482396}
+      - {x: 0.032235954, y: -0.697412}
+      - {x: 0.617412, y: -0.34}
