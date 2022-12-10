@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DiceTwo : MonoBehaviour
 {
     // Array of dice sides sprites to load from Resources folder
     public Sprite[] diceSides;
+    public Image original;
 
     // Reference to sprite renderer to change sprites
     public SpriteRenderer rend;
@@ -50,6 +52,7 @@ public class DiceTwo : MonoBehaviour
 
             // Set sprite to upper face of dice from array according to random value
             rend.sprite = diceSides[randomDiceSide];
+            original.sprite = diceSides[randomDiceSide];
 
             // Pause before next itteration
             yield return new WaitForSeconds(0.05f);
