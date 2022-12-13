@@ -11,12 +11,14 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     
     }
+
+    //Exit Button 
     public void ExitButton()
     {
         Application.Quit();
         Debug.Log("Game is exiting");
     }
 
-    //Exit Button
+    
 
 }
