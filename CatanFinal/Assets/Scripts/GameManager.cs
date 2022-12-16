@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
                     randCard.transform.position = cardSlots[i].position;
                     availableCardSlots[i] = false;
                     deck.Remove(randCard);
+                    Debug.Log("Cards available");
                     return;
                 }
             }
